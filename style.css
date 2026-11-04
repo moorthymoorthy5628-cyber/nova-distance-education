@@ -445,13 +445,11 @@ max-width: 100%;
   padding: 60px 0;
   width: 100%;
   overflow: hidden;
-    background-image:none; 
+    background-image:  url('photo/home\ page2.webp');
      background-size: cover;
       background-position: center;
 }
-.homephoto.loaded{
-  background-image: url('photo/home\ page2.webp');
-}
+
 @media screen and (max-width: 768px) {
   .homephoto {
     padding: 30px 10px;
