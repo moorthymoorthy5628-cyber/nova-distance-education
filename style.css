@@ -450,6 +450,13 @@ max-width: 100%;
       background-position: center;
 }
 
+.topdis{
+  font-size: 1.2rem;
+  color: #ffffff;
+}
+.colorh3{
+  color: #ffffff;
+}
 @media screen and (max-width: 768px) {
   .homephoto {
     padding: 30px 10px;
