@@ -431,13 +431,13 @@ max-width: 100%;
 }
  #photo1{
     background-image:  /*linear-gradient(rgba(32, 53, 210, 0.4), rgba(29, 141, 185, 0.8)),*/
-                        url('photo/bharathidhasan1.png');
+                        url('photo/bharathidhasan1.webp');
      /* background-size: cover;*/
       background-position: center;
 }
 #photoo{
     background-image:  /*linear-gradient(rgba(32, 53, 210, 0.4), rgba(29, 141, 185, 0.8)),*/
-                        url('photo/alagappa1.png');
+                        url('photo/alagappa1.webp');
      /* background-size: cover;*/
       background-position: center;
 }
@@ -446,7 +446,7 @@ max-width: 100%;
   width: 100%;
   overflow: hidden;
     background-image:  /*linear-gradient(rgba(32, 53, 210, 0.4), rgba(29, 141, 185, 0.8)),*/
-                        url('photo/home\ page2.png');
+                        url('photo/home\ page2.webp');
       background-size: cover;
       background-position: center;
 }
@@ -457,7 +457,7 @@ max-width: 100%;
 }
 #dipphoto{
     background-image:  /*linear-gradient(rgba(32, 53, 210, 0.4), rgba(29, 141, 185, 0.8)),*/
-                        url('photo/dipl.jpg');
+                        url('photo/dipl.webp');
       background-size: cover;
       background-position: center;
 }
