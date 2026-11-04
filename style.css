@@ -445,10 +445,12 @@ max-width: 100%;
   padding: 60px 0;
   width: 100%;
   overflow: hidden;
-    background-image:  /*linear-gradient(rgba(32, 53, 210, 0.4), rgba(29, 141, 185, 0.8)),*/
-                        url('photo/home\ page2.webp');
-      background-size: cover;
+    background-image:none; 
+     background-size: cover;
       background-position: center;
+}
+.homephoto.loaded{
+  background-image: url('photo/home\ page2.webp');
 }
 @media screen and (max-width: 768px) {
   .homephoto {
@@ -456,7 +458,7 @@ max-width: 100%;
   }
 }
 #dipphoto{
-    background-image:  /*linear-gradient(rgba(32, 53, 210, 0.4), rgba(29, 141, 185, 0.8)),*/
+    background-image:  
                         url('photo/dipl.webp');
       background-size: cover;
       background-position: center;
