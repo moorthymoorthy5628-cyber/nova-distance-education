@@ -455,7 +455,8 @@ max-width: 100%;
   color: #ffffff;
 }
 .colorh3{
-  color: #ffffff;
+  color:#ffffff; 
+
 }
 @media screen and (max-width: 768px) {
   .homephoto {
