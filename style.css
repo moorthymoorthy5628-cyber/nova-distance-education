@@ -111,7 +111,7 @@
       flex-direction: column;
       gap: 5px;
       cursor: pointer;
-      background: rgba(255, 255, 255, 0.05);
+      background: linear-gradient(135deg, #7357d8, #4437f7);
       padding: 10px;
       border-radius: 8px;
       border: 1px solid rgba(255, 255, 255, 0.1);
@@ -125,9 +125,44 @@
     }
 /* Mobile Responsive Media Query */
   @media screen and (max-width: 768px) {
-    .menu-toggle {
+  /*  .menu-toggle {
       display: flex;
-    }
+    }*/
+    .nav-links {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background: linear-gradient(135deg, #1e3a8a, #2563eb);
+   /* background-color: #0a2150;  Ungaloda background color-ku mathikonga */
+    flex-direction: column;
+    align-items: center;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-in-out;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.4);
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+  }
+
+  /* Active class vantha menu open agum */
+  .nav-links.active {
+    max-height: 400px; 
+    padding: 20px 0;
+  }
+.nav-links li a {
+    color: #ffffff !important;
+  }
+  /* Hamburger icon animation (Optional) */
+  .menu-toggle.active span:nth-child(1) {
+    transform: rotate(45deg) translate(5px, 5px);
+  }
+  .menu-toggle.active span:nth-child(2) {
+    opacity: 0;
+  }
+  .menu-toggle.active span:nth-child(3) {
+    transform: rotate(-45deg) translate(5px, -5px);
+  }
   }
     /* SECTIONS STYLES */
     section {
@@ -1474,20 +1509,19 @@ word-break: break-word;
   
 }
 .circle{
-  background: #ffffff;
+  background: linear-gradient(135deg, #7357d8, #4437f7);
   border: 1px solid rgba(255, 255, 255, 0.2);
   color: #08142c;
   font-size: 7px;
   font-weight: bold;
-  width: 32px;  /* விட்டம் (Width) */
-  height: 32px; /* உயரம் (Height) - Width-ம் Height-ம் சமமாக இருந்தால் மட்டுமே வட்டம் (Circle) வரும் */
-  border-radius: 50%; /* முழுமையான வட்ட வடிவம் */
+  width: 32px;  
+  height: 32px; 
+  border-radius: 50%;
   cursor: pointer;
   display: flex;
   align-items: center;
   justify-content: center;
   padding: 0;
-  
   /* ஸ்மூத் அனிமேஷன் */
   transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
   transform: scale(1.1);

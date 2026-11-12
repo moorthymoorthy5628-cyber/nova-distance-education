@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Nova Distance Education Institute in Hosur | UG, PG & Diploma Courses</title>
+<title>Top Distance Education Institute in Hosur | Nova UG, PG & Diploma</title>
   <meta name="description" content="Leading Distance Education Center in Hosur offering UGC-recognized Bharathidasan & Alagappa University UG, PG, MBA, and Diploma correspondence courses.">
   <meta name="keywords" content="Nova Distance Education Hosur, Distance education Hosur, Bharathidasan university distance education Hosur, Alagappa university Hosur">
  <link rel="icon" type="image/x-icon" href="photo/nova logo!.png">
@@ -55,7 +55,7 @@
     <!-- Logo Image -->
     <img src="photo/nova logo!.webp" alt="Brand Logo" class="logo-img" loading="lazy">
   </div>
-        <h1 class="section-title" data-i18n="heroTitle"> Shape Your Future with Distance Education</h1>
+        <h1 class="section-title" data-i18n="heroTitle"> Top Distance Education Institute in Hosur - Nova</h1>
         <h2 data-i18n="heroSubtitle1" class="topdis">Top Distance Education Courses for Your Career Growth </h2>
         <h3 data-i18n="heroSubtitle" class="colorh3"> Learn at your own pace with UGC-recognized university programs. flexible, affordable, and career-focused degree courses. </h3>
         <h4 data-i18n="heroDesc"> Get your UGC-recognized degree with flexible learning. We are the leading Distance Education Center in Hosur offering UG, PG, Diploma and MBA, MCA correspondence courses. </h4>
@@ -71,7 +71,6 @@
             <div class="top"></div>
             <div class="bottom"></div>
         </div>
-
     </div>
 </div>
 </section>
@@ -713,12 +712,30 @@
 </body>
 
   <!-- JAVASCRIPT -->
+   <script>
+// 2. Menu-la irukura yethathu link-a click pannalum menu close aganum
+document.querySelectorAll('.nav-links a').forEach(link => {
+  link.addEventListener('click', () => {
+    mobileMenu.classList.remove('active');
+    navLinks.classList.remove('active');
+  });
+});
+
+// 3. Page scroll agum pothu auto close aganum
+window.addEventListener('scroll', () => {
+  if (navLinks.classList.contains('active')) {
+    mobileMenu.classList.remove('active');
+    navLinks.classList.remove('active');
+  }
+});
+</script>
   <script>
     // Mobile Menu Toggle Logic
     const mobileMenu = document.getElementById('mobile-menu');
     const navLinks = document.getElementById('nav-links');
-
+// 1. Mobile Menu Toggle (Click pannile open/close aganum)
     mobileMenu.addEventListener('click', () => {
+      mobileMenu.classList.toggle('active');
       navLinks.classList.toggle('active');
     });
    // Close menu when link is clicked
@@ -850,7 +867,7 @@ const translations = {
     navContact: "Contact Us",
     navAbout: "About Us",
     navLocation: "Location",
-    heroTitle: "Shape Your Future with Distance Education",
+    heroTitle: "Top Distance Education Institute in Hosur - Nova",
     heroSubtitle: "Learn at your own pace with UGC-recognized university programs. Flexible, affordable, and career-focused degree courses.",
     heroDesc: "Get your UGC-recognized degree with flexible learning. We are the leading Distance Education Center in Hosur offering UG, PG, Diploma and MBA, MCA correspondence courses.",
     bookDegree: "Degree",
@@ -1038,7 +1055,7 @@ const translations = {
     navContact: "தொடர்புகொள்ள",
     navAbout: "எங்களைப் பற்றி",
     navLocation: "இருப்பிடம்",
-    heroTitle: "தொலைதூரக் கல்வியின் மூலம் உங்கள் எதிர்காலத்தை வடிவமைத்துக் கொள்ளுங்கள்",
+    heroTitle: "ஓசூரின் தலைசிறந்த தொலைதூரக் கல்வி நிறுவனம் - நோவா (Nova)",
     heroSubtitle: "UGC அங்கீகாரம் பெற்ற பல்கலைக்கழக படிப்புகள் மூலம் உங்கள் சொந்த வேகத்தில் கற்றுக்கொள்ளுங்கள். நெகிழ்வான, மலிவான மற்றும் தொழில் சார்ந்த பட்டப்படிப்புகள்.",
     heroDesc: "UGC அங்கீகரிக்கப்பட்ட பட்டப்படிப்பை நெகிழ்வான கற்றல் முறையில் பெறுங்கள். ஓசூரில் UG, PG, Diploma, MBA மற்றும் MCA அஞ்சல் வழிக் கல்வியை வழங்கும் முன்னணி தொலைதூரக் கல்வி மையம் நோவா இன்ஸ்டிடியூட்.",
     bookDegree: "பட்டப்படிப்பு",
